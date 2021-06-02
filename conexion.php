@@ -4,8 +4,8 @@
 
 $hostname='localhost';
 $user='root';
-$password='qwerty12345';
-$database='prueba2';
+$password='';
+$database='prueba';
 
 $conection=mysqli_connect($hostname,$user,$password,$database);
 if($conection)
